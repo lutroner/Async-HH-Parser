@@ -14,3 +14,27 @@ $ pip install -r requirements.txt
 ```console
 $ python async_parse_hh.py
 ```
+### Пример вывода
+```console
+{'C++': {'average_salary': 169918,
+         'vacancies_found': 1033,
+         'vacancies_processed': 341},
+ 'Go': {'average_salary': 205834,
+        'vacancies_found': 529,
+        'vacancies_processed': 152},
+ 'Java': {'average_salary': 185330,
+          'vacancies_found': 1798,
+          'vacancies_processed': 356},
+ 'JavaScript': {'average_salary': 166110,
+                'vacancies_found': 2572,
+                'vacancies_processed': 797},
+ 'Python': {'average_salary': 172585,
+            'vacancies_found': 1717,
+            'vacancies_processed': 475},
+ 'Ruby': {'average_salary': 193092,
+          'vacancies_found': 126,
+          'vacancies_processed': 43},
+ 'Rust': {'average_salary': 131457,
+          'vacancies_found': 46,
+          'vacancies_processed': 24}}
+```
